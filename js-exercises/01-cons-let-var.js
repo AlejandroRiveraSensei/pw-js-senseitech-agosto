@@ -17,7 +17,7 @@ console.log(numero);
 
 //JS Namin convention = Snake Case
 
-let sensei_tech_solutions = "Sensei Tech Solutions"; // Snake Case - CORRECTO
+let sensei_tech_solutions = "Sensei Tech Academy"; // Snake Case - CORRECTO
 let seseiTechSolutions = "Senseit Tech Solutions"; // Camel case - INCORRECTO 
 let SenseiTechSolutions = "Sensi Tech Solutions"; // Pascal Case - INCORRECTO
 
