@@ -47,7 +47,7 @@ module.exports = defineConfig({
      * Muy útil para explicar el flujo durante un curso.
      */
     launchOptions: {
-      slowMo: 10000
+      slowMo: 1000
     },
 
     /**

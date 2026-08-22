@@ -1,4 +1,4 @@
-import {text, expect} from requiere('@playwright/test');
+import {test, expect} from '@playwright/test';
 
 
 test('My First Test', async ({page}) =>{
