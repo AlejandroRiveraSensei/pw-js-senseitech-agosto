@@ -45,6 +45,8 @@ await page.getByPlaceholder('Zip/Postal Code').fill('90210')
 await page.getByRole('button',{ name: 'Continue'}).click()
 
 // 10. Finalizar la compra
+//Validacion ejercico
+
 //await page.getByRole('button', {class: '.btn btn_action btn_medium cart_button'}).click() ESTE NO ES UNA FORMA VALIDA
 await page.getByRole('button',{ name: 'Finish'}).click()
 //await page.locator('.btn_medium').click()
