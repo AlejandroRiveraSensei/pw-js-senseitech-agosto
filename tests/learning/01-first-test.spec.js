@@ -8,7 +8,6 @@ import {test,expect} from '@playwright/test';
 test('First PLaywright test - Login en SauceDemo', async ({page}) => { // page = WebDriver
     
     await page.goto('https://www.saucedemo.com/')
-
     await page.fill('#user-name','standard_user')
 
     await page.fill('#password','secret_sauce')
