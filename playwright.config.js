@@ -47,7 +47,7 @@ module.exports = defineConfig({
      * Muy útil para explicar el flujo durante un curso.
      */
     launchOptions: {
-      slowMo: 1000
+      slowMo: 500
     },
 
     /**
@@ -64,10 +64,10 @@ module.exports = defineConfig({
      *
      * 'on' → graba video en TODOS los tests.
      * 'retain-on-failure' → conserva el video solo cuando falla.
-     * 'on-first-retry' → graba únicamente durante el primer retry.
+     * 'on-first-retry' → graba únicamente durante el primer intento.
      * 'off' → desactiva la grabación.
      */
-    video: 'off',
+    video: 'retain-on-failure',
 
     /**
      * 🔍 TRACE OPTIONS
@@ -113,7 +113,7 @@ module.exports = defineConfig({
    * workers: 4
    * Puede ejecutar hasta 4 tests al mismo tiempo.
    */
-  workers: 1,
+  workers: 10,
 
   /**
    * 🌐 CROSS BROWSER TESTING
