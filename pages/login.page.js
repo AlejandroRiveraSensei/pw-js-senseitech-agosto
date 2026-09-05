@@ -6,6 +6,7 @@ export class LoginPage {
         this.usernameInput = page.locator('[data-test = "username"]')
         this.passwordInput = page.locator('[data-test = "password"]')
         this.btnLogin = page.locator('[data-test = "login-button"]')
+        this.errorBanner = page.locator('[data-test = "error"]')
     }
 
 
