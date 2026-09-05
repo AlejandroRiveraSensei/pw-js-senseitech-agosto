@@ -67,7 +67,7 @@ module.exports = defineConfig({
      * 'on-first-retry' → graba únicamente durante el primer retry.
      * 'off' → desactiva la grabación.
      */
-    video: 'on',
+    video: 'off',
 
     /**
      * 🔍 TRACE OPTIONS
@@ -113,7 +113,7 @@ module.exports = defineConfig({
    * workers: 4
    * Puede ejecutar hasta 4 tests al mismo tiempo.
    */
-  workers: 4,
+  workers: 1,
 
   /**
    * 🌐 CROSS BROWSER TESTING
